@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "supabase",
+    "slug": "supabase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra":{
+      "SUPABASE_URL": "https://fcuylndtxsbzvgoenagq.supabase.co",
+      "ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZjdXlsbmR0eHNienZnb2VuYWdxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMwNzk4NzIsImV4cCI6MjA1ODY1NTg3Mn0.Jwpg42xu_IoLUnF6AR7442rMXj6UCoseDHOw9NHiH6I"
+    }
+  }
+}
